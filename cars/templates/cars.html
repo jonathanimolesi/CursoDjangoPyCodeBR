@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <title>Meus Carros</title>
     </head>
+    {% block content %}
     <body>
-        <h1>Carros da PyCodeBR</h1>
-        <h3>Só carro TOP!</h3>
+        <h3>Carro 1: {{ cars.model }} </h3>
     </body>
+    {% endblock %}
 </html>
